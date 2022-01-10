@@ -1,37 +1,16 @@
-## Welcome to GitHub Pages
+# Installing QMK on Royal Kludge RK 837 (G68)
+This guide will walk you through on installing QMK on a Royal Kludge RK 837 RGB keyboard. Even though repos exist for other models and the white backlit version, this guide will only cover the RK 837 model with a SN32F24x MCU.
 
-You can use the [editor on GitHub](https://github.com/aathma2071/sonixqmk-rk837/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+**There is a small chance that you may brick your keyboard in the flashing process, continue at your own risk. Use an appropriate cable, make sure you won’t lose power during flashing and follow the steps carefully.**
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**SonixQMK in its current incarnation does not support Bluetooth or very fancy RGB effects and flashing your keyboard will disable the bluetooth entirely.**
 
-### Markdown
+This guide will have instructions to build and flash SonixQMK on RK 837.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+I have not tried reverting to the original firmware after flashing SonixQMK, so this guide may be a one way road - Try it at your own risk.
 
-```markdown
-Syntax highlighted code block
+This guide assumes that you have the stock bootloader and not Sonix Jumploader.
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/aathma2071/sonixqmk-rk837/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+#TODO
+1. Clone a rk61 port and analyze
+2. Analyze RK68 matrix
